@@ -45,3 +45,15 @@
     console.log(deg); 
  ```
  যদি education:degree না পায় তাহলে ফাকা object পাবে যার কারণে Error তা আসবে না । আমরা এভাবে useCase Error Handle করতে পারি ।
+ 
+ 
+ ## Array Destructuring
+ ```
+   // Array Destructuring 
+     var numbers = [1,2,3,[100,200,300],4,5,6];
+    //  var [a,b] = numbers;
+    var [,,,[,a,b],,,] = numbers
+     console.log(a,b);
+ ```
+ 
+ 
