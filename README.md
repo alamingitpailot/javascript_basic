@@ -17,3 +17,24 @@
 </script>
 
 ```
+
+## Nested Destructuring
+
+```
+<script>
+
+    const user = {
+        name:"Al-Amin",
+        roll:23,
+        age:23,
+        education:{
+            degree:"Diploma"
+        }
+    }
+    
+    const {education:{degree},} = user; 
+    console.log(deg); 
+
+</script>
+
+```
