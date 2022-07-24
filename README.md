@@ -38,3 +38,9 @@
 </script>
 
 ```
+* যদি কোন কারণে education propertise না পায় তাহলে , সেই জন্য 
+```
+    const {education:{degree}={}} = user; 
+    console.log(deg); 
+ ```
+ যদি education:degree না পায় তাহলে ফাকা object পাবে যার কারণে Error তা আসবে না । আমরা এভাবে useCase Error Handle করতে পারি ।
