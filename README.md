@@ -1,7 +1,8 @@
 # javascript_basic
 ## Javascript Let আলোচনা করি 
 # Destructuring কি কেন ব্যবহার করবো ?
-## single Destructuring
+## Object Destructuring
+### single Destructuring
 ```
 <script>
 
